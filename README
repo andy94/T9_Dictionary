@@ -1,22 +1,24 @@
-	Ursache Andrei - 312CA - 10 mai 2014
+	Ursache Andrei - 10 mai 2014
 	
+	----------------------------------------------------------------------------
+	Proiect anul 1, semestrul al doilea, la materia Structuri de Date.
+	Subiect: construirea unui dictionar T9 folosid structuri de date eficiente.
+	Limbaj ales: C++
+	----------------------------------------------------------------------------
 	
-	Aspecte generale:
+		Aspecte generale:
 	
 	Pentru aceasta tema am creeat doua structuri de date utilizate in stocarea
 si returnarea cuvintelor, respectiv o structura de tip treap (Treap.h) si o 
 structura de tip Trie (Trie.h). De asemenea am creeat si o structura ce retine 
 informatiile necesare despre un cuvant din "baza" noastra de date: valoarea sa
 si frecventa cu care a aparut.
-	In realizarea Treap-ului am utilizat (oarecum) structura data (de fapt, care 
-va fi data) la laborator, pastrand aceeasi idee de implementare (noduri nil,
-metode).
 	Mentionez ca nu am utilizat variabile globale, structuri gata implementate
 de STL (inafara de std::string, mentionata in enunt), alte structuri de date sau
 orice alt concept "sensibil" nepermis de enunt.
 	
 	
-	Ideea generala a programului:
+		Ideea generala a programului:
 	
 	Programul pe care l-am realizat primeste initial un set de date din fisierul
 "date.in" de tipul: cuvant frecventa. Pe baza acestor date programul raspunde la
@@ -26,7 +28,7 @@ a programului, deoarece "baza de date" de care dispune se modifica la fiecare
 operatie, crescand frecventa cuvantului folosit.
 	
 	
-	Structurile de date folosite:
+		Structurile de date folosite:
 	
 	Dupa cum a si fost sugerat de catre enuntul temei, m-am folosit de o
 structura de date de tip trie (care "ajunge" la cuvantul dorit in O(lngime
@@ -117,16 +119,6 @@ a numarului de aparitii si se returneaza.
 
 	(!!!) 	Alte detalii referitoare la implementarea temei se regasesc in 
 			fisierele sursa.
-
-
-	Nota personala:
-	
-		As putea spune, ce mai "grea" tema la SD (dar nu foarte)... era 
-	de asteptat fiind ultima dintre ele. A fost interesanta pentru ca m-am 
-	acomodat cu structuri "putin" mai complexe fata de ce am facut pana acum si 
-	prin modul in care le-am combinat pentru a obtine o performanta buna.
-	
-	
 	
 	Andrei Ursache
 
