@@ -4,6 +4,13 @@
 	Proiect anul 1, semestrul al doilea, la materia Structuri de Date.
 	Subiect: construirea unui dictionar T9 folosid structuri de date eficiente.
 	Limbaj ales: C++
+	
+	############################     ATENTIE !!!    ############################
+	Temele sunt verificate pe VMChecker. Nu incercati sa copiati codul, deoarece
+	VMChecker verifica si sursele existente pe GitHub. In plus, fiecare tema va 
+	ajuta foarte mult daca incercati sa o realizati singuri. Asa ca, daca ai
+	ajuns aici pentru a cauta o tema, iti recomand calduros sa inchizi tab-ul cu 
+	GitHub si sa te apuci singur de ea. Spor!
 	----------------------------------------------------------------------------
 	
 		Aspecte generale:
@@ -17,7 +24,6 @@ si frecventa cu care a aparut.
 de STL (inafara de std::string, mentionata in enunt), alte structuri de date sau
 orice alt concept "sensibil" nepermis de enunt.
 	
-	
 		Ideea generala a programului:
 	
 	Programul pe care l-am realizat primeste initial un set de date din fisierul
@@ -26,7 +32,6 @@ un numar dat de interogari, returnand cuvantul cu cel mai mare numar de aparitii
 corespunzator unei insiruiri de taste. Se poate observa si modul de "invatare" 
 a programului, deoarece "baza de date" de care dispune se modifica la fiecare 
 operatie, crescand frecventa cuvantului folosit.
-	
 	
 		Structurile de date folosite:
 	
@@ -92,8 +97,7 @@ a numarului de aparitii si se returneaza.
 	reprezinta drumul si un parametru de tip Word care reprezinta cheia ce va
 	fi inserata in treapul de la destinatie.
 		
-	
-	Implementarea programului: main.cpp
+			Implementarea programului: main.cpp
 		
 		Programul citeste (din date.in) un numar dat de cuvinte si frecvente si
 	le insereaza pe rand in trie, dupa care cinteste numarul de operatii. Pentru
@@ -114,7 +118,6 @@ a numarului de aparitii si se returneaza.
 		Astfel, programul simuleaza tastatura unui telefon mobil care invata
 	pe parcurs ce cuvinte folosim cel mai des (care au probabilitatea cea mai 
 	mare sa apara).
-	
 	
 
 	(!!!) 	Alte detalii referitoare la implementarea temei se regasesc in 
